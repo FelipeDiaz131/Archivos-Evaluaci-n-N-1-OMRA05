@@ -1,0 +1,8 @@
+#ejercicio sobre sobre poner ip y te pregunte su catgoria
+aclNum=int(input("A cual pertenece la IPV4 de esta ACL:"))
+if aclNum >=1 and aclNum <=99:
+    print("Esta IPV4 es que as puesto es una estandar...!")
+elif aclNum >=100 and aclNum <= 199:
+    print("Esta es una Acl IPV4 extendida...!")
+else:
+    print("Esta ACL IPV4  no es extendida o estandar....!")
